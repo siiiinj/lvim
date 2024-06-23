@@ -7,7 +7,7 @@ vim.opt.shiftwidth = 4
 vim.opt.relativenumber = true
 vim.opt.tabstop = 4
 -- Set leader key to `\`
-lvim.leader = "\\" -- Double backslash to represent a single backslash
+lvim.leader = "space" -- Double backslash to represent a single backslash
 lvim.colorscheme = "dogrun"
 -- Function to insert the specified header template
 local function insertHeader()
